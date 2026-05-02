@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
-import { getMeal, Meal } from "../services/api";
-import { getSchool, SchoolInfo } from "../utils/storage";
+import { getMeal, type Meal } from "../services/api";
+import { getSchool, type SchoolInfo } from "../utils/storage";
 import { getTodayDate, formatMealDate } from "../utils/date";
 import { Calendar, RefreshCw, AlertCircle } from "lucide-react";
 import { Link } from "react-router-dom";

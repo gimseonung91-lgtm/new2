@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { searchSchool } from "../services/api";
-import { saveSchool, getSchool, clearSchool, SchoolInfo } from "../utils/storage";
+import { saveSchool, getSchool, clearSchool, type SchoolInfo } from "../utils/storage";
 import { Search, Trash2, Check, School } from "lucide-react";
 
 interface SearchResult {
